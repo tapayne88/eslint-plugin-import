@@ -10,8 +10,8 @@ export const rules = {
   'no-restricted-paths': require('./rules/no-restricted-paths'),
   'no-internal-modules': require('./rules/no-internal-modules'),
   'group-exports': require('./rules/group-exports'),
+  'no-relative-packages': require('./rules/no-relative-packages'),
   'no-relative-parent-imports': require('./rules/no-relative-parent-imports'),
-
   'no-self-import': require('./rules/no-self-import'),
   'no-cycle': require('./rules/no-cycle'),
   'no-named-default': require('./rules/no-named-default'),
@@ -19,7 +19,6 @@ export const rules = {
   'no-named-as-default-member': require('./rules/no-named-as-default-member'),
   'no-anonymous-default-export': require('./rules/no-anonymous-default-export'),
   'no-unused-modules': require('./rules/no-unused-modules'),
-
   'no-commonjs': require('./rules/no-commonjs'),
   'no-amd': require('./rules/no-amd'),
   'no-duplicates': require('./rules/no-duplicates'),

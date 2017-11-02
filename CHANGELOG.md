@@ -52,6 +52,7 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 - [`order`]: Add support for TypeScript's "import equals"-expressions ([#1785], thanks [@manuth])
 - [`import/default`]: support default export in TSExportAssignment ([#1689], thanks [@Maxim-Mazurok])
 - [`no-restricted-paths`]: add custom message support ([#1802], thanks [@malykhinvi])
+- add [`no-relative-packages`] ([#966], thanks [@panrafal])
 
 ### Fixed
 - [`group-exports`]: Flow type export awareness ([#1702], thanks [@ernestostifano])
@@ -873,6 +874,7 @@ for info on changes for earlier releases.
 [#1068]: https://github.com/benmosher/eslint-plugin-import/pull/1068
 [#1049]: https://github.com/benmosher/eslint-plugin-import/pull/1049
 [#1046]: https://github.com/benmosher/eslint-plugin-import/pull/1046
+[#966]: https://github.com/benmosher/eslint-plugin-import/pull/966
 [#944]: https://github.com/benmosher/eslint-plugin-import/pull/944
 [#912]: https://github.com/benmosher/eslint-plugin-import/pull/912
 [#908]: https://github.com/benmosher/eslint-plugin-import/pull/908
@@ -1274,3 +1276,4 @@ for info on changes for earlier releases.
 [@foray1010]: https://github.com/foray1010
 [@tomprats]: https://github.com/tomprats
 [@straub]: https://github.com/straub
+[@panrafal]: https://github.com/panrafal
