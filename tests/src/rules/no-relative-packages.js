@@ -24,6 +24,18 @@ ruleTester.run('no-relative-packages', rule, {
       code: 'const bar = require("../bar.js")',
       filename: testFilePath('./package/index.js'),
     }),
+    test({
+      code: 'const bar = require("../not/a/file/path.js")',
+      filename: testFilePath('./package/index.js'),
+    }),
+    test({
+      code: 'import "package"',
+      filename: testFilePath('./package/index.js'),
+    }),
+    test({
+      code: 'require("../bar.js")',
+      filename: testFilePath('./package/index.js'),
+    }),
   ],
 
   invalid: [
