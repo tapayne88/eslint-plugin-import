@@ -41,7 +41,9 @@ function checkImportForRelativePackage(context, importPath, node) {
     )
     context.report({
       node,
-      message: `Relative import from another package is not allowed. Use "${properImport}" instead of "${importPath}"`,
+      message:
+        'Relative import from another package is not allowed. ' +
+        `Use \`${properImport}\` instead of \`${importPath}\``,
     })
   }
 }
