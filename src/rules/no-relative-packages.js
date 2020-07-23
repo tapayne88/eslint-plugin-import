@@ -8,7 +8,6 @@ import docsUrl from '../docsUrl'
 
 function findNamedPackage(filePath) {
   const found = readPkgUp.sync({cwd: filePath, normalize: false})
-  // console.log(found)
   if (found.pkg && !found.pkg.name) {
     return findNamedPackage(path.join(found.path, '../..'))
   }
