@@ -50,7 +50,7 @@ module.exports = {
   meta: {
     type: 'suggestion',
     docs: {
-      url: docsUrl('named'),
+      url: docsUrl('no-relative-packages'),
     },
     schema: [],
   },
